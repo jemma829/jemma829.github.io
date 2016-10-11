@@ -1,0 +1,29 @@
+/*브라우저스타일초기화*/
+body{
+	/*가운데정렬 ; 바디 가로크기 정하고 양옆에 자동으로 마진을 주면 남는 공간을 나눠가지게된다*/
+	width: 960px;
+	margin: 0 auto;
+	/*배경이미지: url(이미지설정);  래딩간격을 패턴으로 배경이미지로그*/
+	/*background: url("../images/pattern-24.png");*/
+	/* 글자모양 */
+	font-family: "Spoqa Han Sans";
+	/* 행간 폰트의 1.5배 상대값 */
+	line-height: 1.5;
+	/* 글자사이의 간격 -40/1000 커멘드+시프트+Y  */
+	letter-spacing: -0.04em;
+
+}
+/* 멀티컬럼디자인 */
+div{
+	margin-top: 3em;
+	column-count: 2;
+	column-gap: 3em;
+}
+
+/* 단락디자인 */
+p{
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	/* 글자색상 */
+	color: #262323;
+}
