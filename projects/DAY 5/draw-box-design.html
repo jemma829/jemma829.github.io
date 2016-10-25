@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS 박스 디자인(박스모델)</title>
+	<link rel="stylesheet" href="css/box-design.css">
+</head>
+<style>
+	.thumb img{
+		border: 5px solid #e1e1e1;
+		padding: 20px;
+		background: #000;
+		margin-right: 20px;
+	}
+</style>
+<body>
+	<!-- 의미는 없지만, 포토샵의 그룹 레이어처럼 사용되는 묶어주는 요소 -->
+	<!-- <div> dicision(구역,영역) -->
+<div class="thumb">
+<img src="images/thumb-1.jpg" alt="" width="250px" height="250px">
+<img src="images/thumb-2.jpg" alt="" width="250px" height="250px">
+<img src="images/thumb-3.jpg" alt="" width="250px" height="250px">
+</div>
+
+<div class="box white-box">#f5f5f5</div>
+<div class="box gray-box">#e1e1e1</div>
+<div class="box black-box">#181818</div>
+<div class="box skyblue-box">#1ca9c4</div>
+<div class="box red-box">#f46157</div>
+</body>
+</html>

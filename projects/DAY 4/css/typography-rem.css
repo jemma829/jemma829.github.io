@@ -1,0 +1,87 @@
+
+html{
+	font-size: 10px;
+}
+/*브라우저초기화*/
+body{
+	margin: 0;
+}
+
+/*사용자정의 스타일 오버라이딩*/
+/*design - 설계*/
+/*본문설계*/
+
+body{
+	font-family: "Spoqa han sans";
+	/*쌍따음표를 안쓰면 폰트이름 인식 못함, 사이에 공백때문에, */
+	font-size: 1.6rem;
+	letter-spacing: -0.04em;
+	line-height: 2.4rem; /* 24px */
+	color: #181818;
+	background: url(../images/pattern-24.png);
+
+}
+
+/*레이아웃디자인*/
+
+body{
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*단락설계*/
+p{
+	margin-top: 0;
+	margin-bottom: 2.4rem;
+	/*마진바텀을 설정해줘야됨! 포토샵에서 문단 설계했던것처럼*/;
+}
+
+/*제목설계*/
+h6{
+	margin-top: 0;
+	font-size: 2rem;
+	line-height: 2.4rem;
+	margin-bottom: 2.4rem;
+	font-weight: 400;
+}
+
+h5{
+	margin-top: 0;
+	font-size: 2.5rem;
+	line-height: 2.4rem;
+	margin-bottom: 2.4rem;
+	font-weight: 400;
+}
+
+h4{
+	margin-top: 0;
+	font-size: 3.125rem;
+	line-height: 4.8rem;
+	margin-bottom: 2.4rem;
+	font-weight: 400;
+}
+
+h3{
+	margin-top: 0;
+	font-size: 3.90625rem;
+	line-height: 4.8rem;
+	margin-bottom: 2.4rem;
+	font-weight: 400;
+}
+
+h2{
+	margin-top: 0;
+	font-size: 4.8828125rem;
+	line-height: 4.8rem;
+	margin-bottom: 2.4rem;
+	font-weight: 700;
+}
+
+h1{
+	margin-top: 0;
+	font-size: 6.103515625rem;
+	line-height: 7.2rem;
+	margin-bottom: 2.4rem;
+	font-weight: 700;
+
+}

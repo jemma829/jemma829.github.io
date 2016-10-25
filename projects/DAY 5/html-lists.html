@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML 목록디자인</title>
+	<link rel="stylesheet" href="css/list-design.css">
+</head>
+<body>
+
+<!-- 비순차목록: 순서가중요하지않은목록 : Unordered list<ul>-->
+<!-- 목록의 각 학목은 item : <list item <li> 라고부른다 -->
+<h2>웹의 대표 3언어</h2>
+<ul class="dot-list">
+	<li>HTML
+		<ul class="depth-2">
+			<li>HTML 4.01</li>
+			<li>XHTML 1.0</li>
+			<li>HTML 5</li>
+		</ul>
+	</li>
+	<li>CSS</li>
+	<li>JavaScript</li>
+</ul>
+<!-- 순차목록: 순서(order)가 중요한 목록(list): ordered list <ol>-->
+
+<h2>웹의 대표 3언어의 탄생 순서</h2>
+<ol class="number-color">
+	<li><span>1989, HTML</span></li>
+	<li><span>1994, JavaScript</span></li>
+	<li><span>1996, CSS</span></li>
+</ol>
+<!-- 정의 목록: 용어를 정의하는 기술 내용을 묶은 목록 -->
+<!-- DL   difinition list : 정의목록 -->
+<!-- DT   difinition Term : 정의용어 -->
+<!-- DD   difinition Description: 용어기술-->
+<dl>
+
+  <dt>Vertical Rhythm</dt>
+    <dd>수직 방향의 타이포그래픽 또는 공간에 관한 리듬(운율) 조정 (조율)</dd>
+  <dt>Grid System</dt>
+    <dd>컬럼 디자인을 효율적으로 관리하기 위한 전통적인 디자인도구</dd>
+	
+</dl>
+	
+</body>
+</html>

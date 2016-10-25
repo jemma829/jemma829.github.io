@@ -1,0 +1,41 @@
+.dot-list,
+.dot-list ul{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.dot-list li{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	background: url("../images/dot.png") no-repeat 0 9px;
+}
+
+.dot-list .depth-2 li {
+	background-image: url("../images/dot-depth2.png");
+}
+
+.number-color{
+	padding-left: 1.2em;
+	color: #1ca9c4;
+}
+
+.number-color span{
+	color: #181818;
+}
+
+h2 {
+    color: tan;
+}
+
+dt {
+    color: red;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+dd {
+    margin-bottom: 10px;
+}

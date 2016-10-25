@@ -1,0 +1,28 @@
+.box{
+	display: inline-block;
+
+	/*inline박스는 위드랑 하이트없어지고 텍스트만큼만 박스가 생선된다*/
+	/*좌 우측으로는 공간을 벌릴수 있고 상하로는 벌릴수 없다, 단락요소안의 텍스트같음
+	부모박스에 따라서 글자가 아래로 떨어짐, 블록과 인라인의 차이알아두기
+	버티컬얼라인은 인라인에선 가능하고 블럭에선 불가능함(윗첨자,아랫첨자)
+	블럭요소는 텍스트얼라인가능, 버티컬얼라인은 인라인에서만 가능*/
+	width: 100px;
+	height: 100px;
+	background: #000;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 100px;
+	/*가운데 정렬해주기위해서 박스크기인 100px로 설정해줌
+	글자의 행간을 박스만큼준다(일종의 트릭)*/
+	color: #000;
+	margin-right: -5px;
+}
+/*클래스는 앞에 점을찍어줘야됨*/
+/*div는 요소인데 요소보다 클래스가 더 높다. 
+그래서 div에 있던 백그라운드는 무시되고 클래스의 속성이 더 우선시됨*/
+.white-box    { background: #f5f5f5; }
+.gray-box      { background: #e1e1e1; }
+.black-box     { background: #181818;
+		color: #ffffff;}
+.skyblue-box {  background: #1ca9c4; }
+.red-box        { background: #f46157; }

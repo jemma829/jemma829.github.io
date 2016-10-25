@@ -1,0 +1,18 @@
+body {
+	font-family: "YouandiModrtnTR";
+}
+
+.hc-modern {
+	/*글꼴 상속*/
+	font-family: "YouandimodernTR";
+}
+
+.spoqa {
+	/*글꼴상속*/
+	font-family: "Spoqa Han Sans";
+}
+
+h1 {
+	/*글자두께를 일반*/
+	font-weight: normal;
+}
