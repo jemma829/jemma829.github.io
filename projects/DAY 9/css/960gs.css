@@ -1,4 +1,5 @@
-body {margin: 0;}
+body {margin: 0;
+font-family: "Open Sans", Sans-Serif;}
 
 .show-grid{
 	min-height: 100vh;
@@ -14,7 +15,7 @@ body {margin: 0;}
 }
 
 .grid-container{
-	background: linear-gradient(90deg, hsla(3, 99%, 62%, 0.4) 50%, hsla(360, 66%, 37%, 0.6) 50%);
+	background: linear-gradient(90deg, hsla(3, 99%, 62%, 0.4) 50%, hsla(0, 30%, 45%, 0.6) 50%);
 	background-size: 160px 1px;
 }
 

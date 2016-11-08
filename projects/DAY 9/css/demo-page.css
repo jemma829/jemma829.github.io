@@ -1,0 +1,73 @@
+body {
+    font-family: "Open Sans", Sans-Serif;
+}
+.product-section {
+	padding-top: 40px;
+}
+
+.product {
+	padding-top: 50px;
+	text-align: center;
+}
+
+
+.product * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.product img {
+  vertical-align: bottom;
+}
+
+.product .product-category {
+  font-size: 25px;
+  margin-top: 23px;
+}
+
+.product-category {
+	margin-top: 27px;
+	text-transform: uppercase;
+	color: #92444c;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+
+
+.product p {
+	margin: 0 auto;
+	width: 230px;
+	font-size: 12px;
+}
+
+.heart-love .product-category {
+    color: #74479a;
+    margin-top: 20px;
+}
+
+.cactus .product-category {
+    color: #507101;
+    margin-top: 2px;
+}
+
+.row2 .product img{
+	margin-top: 13px;
+	margin-bottom: 0;
+}
+
+.product .product-category.dinner {
+    margin-top: -48px;
+    color: #fff;
+    padding-left: 290px;
+    font-size: 22px;
+}
+
+.product .product-category.morning {
+    margin-top: -128px;
+    color: #fff; 
+    font-size: 22px;
+}
+
+.fork img {
+	margin-top: -128px;
+}

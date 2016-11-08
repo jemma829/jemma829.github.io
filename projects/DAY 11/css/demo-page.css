@@ -1,0 +1,102 @@
+body {
+    font-family: "Open Sans", Sans-Serif;
+}
+.product-section {
+	padding-top: 40px;
+}
+
+.product {
+	padding-top: 50px;
+	text-align: center;
+}
+
+
+.product * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.product img {
+  vertical-align: bottom;
+}
+
+.product .product-category {
+  font-size: 25px;
+  margin-top: 23px;
+}
+
+.product-category {
+	margin-top: 27px;
+	text-transform: uppercase;
+	color: #92444c;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+
+
+.product p {
+	margin: 0 auto;
+	width: 230px;
+	font-size: 12px;
+}
+
+.heart-love .product-category {
+    color: #74479a;
+    margin-top: 20px;
+}
+
+.cactus .product-category {
+    color: #507101;
+    margin-top: 2px;
+}
+
+
+.row2{
+  margin-top: 63px;
+}
+
+.product-dinner-food{
+  position: relative;
+}
+
+.product-morning-food{
+  position: relative;
+}
+
+.product-folk {
+  position: relative;
+}
+
+.dinner-food {
+  position: absolute;
+  bottom: 22px;
+  right: 26px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+  margin: 0;
+  font-family: "Open Sans";
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.morning-food {
+  position: absolute;
+  bottom: 104px;
+  right: 26px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+  margin: 0;
+  font-family: "Open Sans";
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.folk {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+}
