@@ -53,6 +53,10 @@ img{
 	left: 120px;
 }
 
+/*부모박스와 자식박스가있을때
+자식에 엡솔루트를주면 부모박스가 인정받지못함
+부모박스에 레러티브주면 부모박스로 인정
+
 .parent{
 	position: relative;
 	width: 300px;
@@ -66,4 +70,4 @@ img{
 	width: 100px;
 	height: 100px;
 	background: #fff600;
-}
+}*/

@@ -1,0 +1,28 @@
+.cover-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.album * {
+	position: absolute;
+}
+
+.album {
+	width: 340px;
+	height: 244px;
+}
+
+.album-cover {
+	z-index: 100;
+}
+
+.Sleeve {
+	left: 438px;
+	z-index: 10;
+}
+
+.vinyl {
+	left: 275px;
+}
