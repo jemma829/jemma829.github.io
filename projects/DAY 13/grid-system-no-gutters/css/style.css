@@ -1,0 +1,11 @@
+.content {
+  height: 100px;
+  box-shadow: 0 0 0 1px hsla(0,0%,0%,1);
+}
+
+.box{
+	color: #fff;
+	background: #333;
+	width: 240px;
+	height: 100px;
+}
