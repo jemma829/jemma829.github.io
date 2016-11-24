@@ -48,11 +48,13 @@ html{
 .banner-goose-CTA:hover {
   color: #fb875e;
 }
+
 .banner-goose-CTA:focus {
   outline: none;
   box-shadow: 0 0 0 3px hsla(50, 100%, 76%, 0.7);
   border-radius: 4px;
 }
+
 .banner-goose-CTA::before {
   content: '';
   position: absolute;
@@ -64,6 +66,67 @@ html{
   background: #fff;
   transition: all 0.4s ease-out;
 }
+
 .banner-goose-CTA:hover::before {
   right: 0;
 }
+
+
+
+/*--------------------------------------rebecca minkoff*/
+
+::selection {
+	background: #fff;
+	color: #f95318;
+}
+
+.slider{
+	margin-top: 30px;
+	position: absolute;
+}
+.rebecca-bg{
+	position: absolute;
+}
+
+.rebecca-headline{
+	position: relative;
+	left: 120px;
+	top: 160px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 1rem;
+	font-size: 7.2rem;
+	letter-spacing: 0.1em;
+	transition: color 0.2s;
+}
+
+.rebecca-desc {
+	position: relative;
+	left: 120px;
+	margin-top: 255px;
+	font-size: 1.6rem;
+}
+
+
+
+.banner-rebecca-CTA {
+  position: relative;
+  left: 120px;
+  z-index: 0;
+  margin-top: 60px;
+  display: inline-block;
+  border: 1px solid #f95318;
+  background: #f95318;
+  padding: 1.4166em 4em;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  transition: color 0.2s;
+}
+
+
+/*--------------------------------------*/
+
